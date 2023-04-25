@@ -3,11 +3,11 @@
 
 //sample data
 var interest = 7;
-var principle = 10000;
+var principal = 10000;
 
 //calc
 var years = 72 / interest;
-var worth = principle * 2;
+var worth = principal * 2;
 
 //output
 console.log("At a " + interest + "% interest rate, your savings account will be worth $"+ worth.toFixed(2) +" in "+ years.toFixed(1) +" years");
