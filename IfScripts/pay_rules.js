@@ -7,13 +7,13 @@ payRate = 17.30;
 hoursWorked = 45;
 
 //calc
-if (hoursWorked > 40){
+if (hoursWorked > 40){                    //overtime :)
     basePay = 40 * payRate;
     overTimePay = (hoursWorked - 40) * (payRate * 1.5);
     totalPay = basePay + overTimePay;
 }
 else {
-    totalPay = payRate * hoursWorked;
+    totalPay = payRate * hoursWorked;     //no overtime
 }
 
 //output 
