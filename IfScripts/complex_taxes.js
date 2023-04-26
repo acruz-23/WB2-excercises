@@ -9,7 +9,7 @@ hoursWorked = 45;
 filingStatus = "Single";
 overtimeThreshold = 40;
 
-//calc pay
+//calc Gross pay
 if (hoursWorked > overtimeThreshold){                     //overtime :)
     basePay = overtimeThreshold * payRate;
     overTimePay = (hoursWorked - overtimeThreshold) * (payRate * 1.5);
@@ -17,7 +17,7 @@ if (hoursWorked > overtimeThreshold){                     //overtime :)
 }
 else {
     weeklyGrossPay = payRate * hoursWorked;               //no overtime.
-};
+}
 annualGrossPay = weeklyGrossPay * 52;
 
 //calc tax rate
@@ -30,7 +30,7 @@ if (annualGrossPay <  12_000) {
     }
 }else if (annualGrossPay < 25_000) {
     if (filingStatus == "Single") {
-        taxRateDecimal = .10
+        taxRateDecimal = .10;
     }
     if (filingStatus == "Joint"){
         taxRateDecimal = .06;
