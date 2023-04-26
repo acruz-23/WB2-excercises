@@ -8,7 +8,10 @@ a = 3;
 b = 1;
 c = 3;
 
-//calc largest value
+//calc largest value and output
+console.log("a:",a);
+console.log("b:",b);
+console.log("c:",c);
 if ( a >= b && a >= c) {
     if (a == b && a ==c){
         console.log("a,b,c are the largest values with a value of:", a);
@@ -43,7 +46,7 @@ if ( a >= b && a >= c) {
     console.log("There was a logic error")
 }
 
-//calc smallest value
+//calc smallest value and output
 if ( a <= b && a <= c) {
     if (a == b && a ==c){
         console.log("a,b,c are the smallest values with a value of:", a);
