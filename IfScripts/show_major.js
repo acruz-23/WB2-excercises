@@ -5,7 +5,7 @@ var studentName, studentMajor;
  
 //sample data
 studentName = "Betty";
-studentMajor = "CSCI";
+studentMajor = "";
 
 
 //calc of output
